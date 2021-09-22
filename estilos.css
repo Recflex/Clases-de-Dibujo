@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Heebo', sans-serif;
+}
+.contenedor{
+    width: 100%;
+    box-sizing: border-box;
+}
+/*-----LOGO Y AUTOR-----*/
+header{
+    width: 100%;
+}
+
+
+/*-----MENU-----*/
+.menu{
+    width: 100%;
+    background: linear-gradient(to right,rgba(156, 0, 0, 0.466), rgba(0, 102, 255, 0)), url(Imagenes/portada.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    line-height: 100px;  
+}
+ul{
+    list-style-type: none;
+    text-align:center;
+
+}
+li{
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border:solid white 1px;
+}
+li:hover{
+    background-color:rgb(218, 71, 45);
+}
+
+/*-----TITULO-----*/
+.bienvenido{
+    width: 100%;
+}
+h1{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: black 1px 1px 1px;
+}
+
+/*-----SUBTITULOS-----*/
+
+h2{
+    text-align: center;
+    color: rgb(62, 0, 179);
+    padding: 10px;
+}
+
+/*-----PARRAFOS-----*/
+
+.dibujo{
+    width: 100%;
+}
+.tiposdedibujo{
+    width: 100%;
+}
+.p1{
+    margin-left: auto;
+	margin-right: auto;
+    padding:15px;
+    width: 70%;
+    color: rgb(0, 0, 0);
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+}
+.imagen1{
+    width: 300px;
+    display:block;
+    margin:auto;
+    border: solid rgb(0, 0, 0) 1px;
+    box-shadow: rgb(0, 0, 0) 6px 5px 8px;
+}
+.imagen2{
+    display:block;
+    margin:auto;
+    width: 297px;
+    border: solid rgb(0, 0, 0) 1px;
+    box-shadow: black 6px 5px 8px;
+}
+
+.logo{
+    text-align: center;
+    padding: 25px;
+}
+.imagen{
+    border-radius: 100%;
+    width: 150px;
+    display:block;
+    margin:auto;
+}
+
+/*-----FOOTER-----*/
+
+.contenediorsocial{
+    color:white;
+    text-shadow: rgb(0, 0, 0) 1px 1px 1px;
+}
+.Icono{
+    line-height: 20px;
+    width: 631px;
+    text-align: center;
+    margin-left: auto;
+	margin-right: auto;
+    display: inline-block;
+}
+.Icono > img{
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 55px;
+    display: inline-block;
+}
+h4{
+    color:white;
+    text-shadow: black 1px 1px 1px;
+}
+
+p{
+    text-align: center;
+    padding: 0px 20px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+footer{
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #9e007e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #b60091); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    height: 400px;
+}
+@media screen and (max-width:600px)and(max-height:1024){
+    .logo{
+    width: 100%;
+
+}}
