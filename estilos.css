@@ -126,17 +126,18 @@ h2{
 }
 .Icono{
     line-height: 20px;
-    width: 631px;
+    width: 413px;
+    text-align: center;
+    margin-left: auto;
+	margin-right: auto;
+}
+.Icono > img{
+    width: 55px;
     text-align: center;
     margin-left: auto;
 	margin-right: auto;
     display: inline-block;
-}
-.Icono > img{
-    border: solid black 2px;
-    border-radius: 10px;
-    width: 55px;
-    display: inline-block;
+    margin: 10px;
 }
 h4{
     color:white;
@@ -145,7 +146,7 @@ h4{
 
 p{
     text-align: center;
-    padding: 0px 20px;
+    padding: 20px 0px;
     color: white;
     font-family: 'Heebo', sans-serif;
 }
